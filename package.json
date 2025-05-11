@@ -1,5 +1,5 @@
 {
-  "name": "split-view-chat-edit",
+  "name": "livecode-editor",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -18,6 +18,8 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@uiw/react-codemirror": "^4.23.12",
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^2.0.9",
     "node-fetch": "^3.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -29,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node server.js",
+    "deploy": "npm run build && npm run server"
   },
   "eslintConfig": {
     "extends": [

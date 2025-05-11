@@ -62,11 +62,43 @@ npm start
 
 The application will be available at [http://localhost:3000](http://localhost:3000).
 
+## Deployment
+
+### Local Deployment with Ollama Integration
+
+1. Build the application:
+```bash
+npm run build
+```
+
+2. Start the production server:
+```bash
+npm run server
+```
+
+The application will be available at [http://localhost:3001](http://localhost:3001).
+
+### Deploying to Vercel
+
+1. Install Vercel CLI:
+```bash
+npm install -g vercel
+```
+
+2. Deploy to Vercel:
+```bash
+vercel
+```
+
+Note: When deploying to Vercel, you'll need to run the Ollama server locally and ensure it's accessible to your deployed application. The proxy server will handle forwarding requests to your local Ollama instance.
+
 ## Available Scripts
 
 - `npm start`: Runs the app in development mode
 - `npm test`: Launches the test runner
 - `npm run build`: Builds the app for production
+- `npm run server`: Starts the production server with Ollama proxy
+- `npm run deploy`: Builds and starts the production server
 - `npm run eject`: Ejects from Create React App
 
 ## Project Structure
