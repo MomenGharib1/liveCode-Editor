@@ -54,6 +54,14 @@ npm install
    ```bash
    ollama pull codellama:7b
    ```
+   - Start the Ollama server:
+   ```bash
+   ollama serve
+   ```
+   - In a new terminal, run the model:
+   ```bash
+   ollama run codellama:7b
+   ```
 
 4. Start the development server:
 ```bash
