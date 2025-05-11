@@ -1,4 +1,4 @@
-# Split View Chat Editor
+# LiveCode Editor
 
 A modern React application that combines a chat interface with a powerful code editor, featuring AI-powered assistance and real-time collaboration capabilities.
 
@@ -39,8 +39,8 @@ A modern React application that combines a chat interface with a powerful code e
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/split-view-chat-edit.git
-cd split-view-chat-edit
+git clone https://github.com/MomenGharib1/liveCode-Editor.git
+cd liveCode-Editor
 ```
 
 2. Install dependencies:
